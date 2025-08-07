@@ -1,0 +1,2 @@
+- parese ca problema cu Module not found era din cauza versiunii de sdk... by default instala versiunea 4, care apparent era buggy, iar acum am sters tot si reinstalat cu "npm install @multiversx/sdk-dapp@latest" si nu mai am erorile respective pare ca am altele, dar le rezolvam usor usor-> sters node_module si package-lock.json si folosit comanda npm install --legacy-peer-deps
+ERROR in ./src/AuthProvider.js 5:0-52 Module not found: Error: Can't resolve '@multiversx/sdk-dapp' in 'D:\mvx-game\mvx-xpepe-game\src'
